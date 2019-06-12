@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'et-line';
-	src: font-url('../fonts/et-line.eot');
-	src:font-url('../fonts/et-line.eot?#iefix') format('embedded-opentype'),
-		font-url('../fonts/et-line.woff') format('woff'),
-		font-url('../fonts/et-line.ttf') format('truetype'),
-		font-url('../fonts/et-line.svg#et-line') format('svg');
+	src: font-url('public/css/et-line.eot');
+	src:font-url('public/css/et-line.eot?#iefix') format('embedded-opentype'),
+		font-url('public/css/et-line.woff') format('woff'),
+		font-url('public/css/et-line.ttf') format('truetype'),
+		font-url('public/css/et-line.svg#et-line') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
