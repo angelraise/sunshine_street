@@ -2,7 +2,9 @@ require_relative 'boot'
 
 require 'rails/all'
 
-config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+Rails.application.configure do
+  config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+end 
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
