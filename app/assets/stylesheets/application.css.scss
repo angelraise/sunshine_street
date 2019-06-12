@@ -16,32 +16,32 @@
 
 @font-face {
   font-family: 'et-line';
-  src: font_url("et-line.eot");
-  src: font_url("et-line.eot?#iefix") format("embedded-opentype"), font_url("etline.svg#et-line") format("svg"), font_url("etline.woff") format("woff"), font_url("et-line.ttf") format("truetype");
+  src: asset-path("et-line.eot");
+  src: asset-path("et-line.eot?#iefix") format("embedded-opentype"), asset-path("etline.svg#et-line") format("svg"), asset-path("etline.woff") format("woff"), asset-path("et-line.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'flexslider';
-  src: font_url("flexslider.eot");
-  src: font_url("flexslider.eot?#iefix") format("embedded-opentype"), font_url("flexslider.svg#et-line") format("svg"), font_url("flexslider.woff") format("woff"), font_url("flexslider.ttf") format("truetype");
+  src: asset-path("flexslider.eot");
+  src: asset-path("flexslider.eot?#iefix") format("embedded-opentype"), asset-path("flexslider.svg#et-line") format("svg"), asset-path("flexslider.woff") format("woff"), asset-path("flexslider.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'fontawesome';
-  src: font_url("fontawesome.eot");
-  src: font_url("fontawesome.eot?#iefix") format("embedded-opentype"), font_url("fontawesome.svg#et-line") format("svg"), font_url("fontawesome.woff") format("woff"), font_url("fontawesome.ttf") format("truetype");
+  src: asset-path("fontawesome.eot");
+  src: asset-path("fontawesome.eot?#iefix") format("embedded-opentype"), asset-path("fontawesome.svg#et-line") format("svg"), asset-path("fontawesome.woff") format("woff"), asset-path("fontawesome.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'linecons';
-  src: font_url("linecons.eot");
-  src: font_url("linecons.eot?#iefix") format("embedded-opentype"), font_url("linecons.svg#et-line") format("svg"), font_url("linecons.woff") format("woff"), font_url("linecons.ttf") format("truetype");
+  src: asset-path("linecons.eot");
+  src: asset-path("linecons.eot?#iefix") format("embedded-opentype"), asset-path("linecons.svg#et-line") format("svg"), asset-path("linecons.woff") format("woff"), asset-path("linecons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
