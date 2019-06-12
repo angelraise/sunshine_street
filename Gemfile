@@ -6,6 +6,7 @@ ruby '2.6.3'
 group :production do
   gem 'pg', '~> 0.20'
   gem 'rails_12factor'
+  gem 'thin'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
